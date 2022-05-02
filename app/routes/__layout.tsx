@@ -1,5 +1,6 @@
 import { Outlet } from "@remix-run/react";
 import NavLink from "~/components/NavLink";
+import { GitHubLogoIcon, TwitterLogoIcon } from "@radix-ui/react-icons";
 
 export default function __layout() {
     return (
@@ -11,11 +12,15 @@ export default function __layout() {
                         <span className="text-zinc-500"> | </span>
                         <span className="text-sky-400">Software Engineer</span>
                     </h1>
-                    <nav className="flex gap-4">
+                    <nav className="flex gap-4 items-center">
                         <NavLink to="/" name="About" />
+                        <NavLink to="/experience" name="Experience" />
+    
+                        <a href="https://github.com/theomega24" target="_blank" className="ml-4"><GitHubLogoIcon className="w-6 h-6" /></a>
+                        <a href="https://twitter.com/bkerllenevich" target="_blank"><TwitterLogoIcon className="w-6 h-6" /></a>
                     </nav>
                 </div>
-                <div className="flex justify-between space-x-4 h-full">
+                <div className="h-full">
                     <Outlet />
                 </div>
             </div>
