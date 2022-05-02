@@ -6,6 +6,7 @@ export const meta: MetaFunction = () => ({
     title: "omega24 | Software Engineer",
     charset: "utf-8",
     viewport: "width=device-width,initial-scale=1",
+    description: "Hi, I'm Ben Kerllenevich (aka omega24). I'm a software engineer who is coincidentally 15 years old.",
 });
 
 export const links: LinksFunction = () => [

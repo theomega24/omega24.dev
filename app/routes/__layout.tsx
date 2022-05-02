@@ -16,8 +16,8 @@ export default function __layout() {
                         <NavLink to="/" name="About" />
                         <NavLink to="/experience" name="Experience" />
     
-                        <a href="https://github.com/theomega24" target="_blank" className="ml-4"><GitHubLogoIcon className="w-6 h-6" /></a>
-                        <a href="https://twitter.com/bkerllenevich" target="_blank"><TwitterLogoIcon className="w-6 h-6" /></a>
+                        <a href="https://github.com/theomega24" target="_blank" className="ml-4" aria-label="GitHub Account"><GitHubLogoIcon className="w-6 h-6" /></a>
+                        <a href="https://twitter.com/bkerllenevich" target="_blank" aria-label="Twitter Account"><TwitterLogoIcon className="w-6 h-6" /></a>
                     </nav>
                 </div>
                 <div className="h-full">
