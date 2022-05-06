@@ -16,10 +16,10 @@ export const links: LinksFunction = () => [
 export default function App() {
     return (
         <html lang="en">
-        <head>
-            <Meta />
-            <Links />
-        </head>
+            <head>
+                <Meta />
+                <Links />
+            </head>
             <body className="font-sans bg-zinc-900 text-white w-screen h-screen">
                 <Outlet />
                 <Scripts />

@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-has-content */
 import { Outlet } from "@remix-run/react";
 import NavLink from "~/components/NavLink";
 import { GitHubLogoIcon, TwitterLogoIcon } from "@radix-ui/react-icons";
@@ -15,9 +16,9 @@ export default function __layout() {
                     <nav className="flex gap-4 items-center">
                         <NavLink to="/" name="About" />
                         <NavLink to="/experience" name="Experience" />
-    
-                        <a href="https://github.com/theomega24" target="_blank" className="ml-4" aria-label="GitHub Account"><GitHubLogoIcon className="w-6 h-6" /></a>
-                        <a href="https://twitter.com/bkerllenevich" target="_blank" aria-label="Twitter Account"><TwitterLogoIcon className="w-6 h-6" /></a>
+
+                        <a href="https://github.com/theomega24" target="_blank" className="ml-4" aria-label="GitHub Account" rel="noreferrer"><GitHubLogoIcon className="w-6 h-6" /></a>
+                        <a href="https://twitter.com/bkerllenevich" target="_blank" aria-label="Twitter Account" rel="noreferrer"><TwitterLogoIcon className="w-6 h-6" /></a>
                     </nav>
                 </div>
                 <div className="h-full">

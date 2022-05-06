@@ -1,14 +1,8 @@
 import { NavLink as RemixLink } from "@remix-run/react";
 
-export type LinkProps = {
-    to: string,
-    name: string,
-}
-
-export default function NavLink({ to, name }: LinkProps) {
+export default function NavLink({ to, name }: { to: string; name: string; }) {
     return (
-        <RemixLink to={to} prefetch="intent"
-                   className={({ isActive }) => `text-2xl ${isActive ? "text-white font-bold border-white" : "text-zinc-500 border-transparent"} border-b-2`}>
+        <RemixLink to={to} prefetch="intent" className={({ isActive }) => `text-2xl ${isActive ? "text-white font-bold border-white" : "text-zinc-500 border-transparent"} border-b-2`}>
             {name}
         </RemixLink>
     );
