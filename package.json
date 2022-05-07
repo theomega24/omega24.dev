@@ -6,8 +6,8 @@
     "dev:css": "yon run generate:css -- --watch",
     "dev:remix": "remix watch",
     "dev:wrangler": "wrangler pages dev ./public",
-    "generate:css": "npx tailwindcss -o ./app/tailwind.css"
-    "build": "cross-env NODE_ENV=production run-s build:*"
+    "generate:css": "npx tailwindcss -o ./app/tailwind.css",
+    "build": "cross-env NODE_ENV=production run-s build:*",
     "build:css": "npm run generate:css -- --minify",
     "build:remix": "remix build",
     "start": "cross-env NODE_ENV=production yon run dev:wrangler"
