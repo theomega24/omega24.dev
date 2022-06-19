@@ -11,7 +11,7 @@ export default function __layout() {
                     <h1 className="text-3xl">
                         <span className="font-bold">omega24</span>
                         <span className="text-zinc-500"> | </span>
-                        <span className="text-sky-400">Software Engineer</span>
+                        <span className="text-purple-600">Software Engineer</span>
                     </h1>
                     <nav className="flex gap-4 items-center">
                         <NavLink to="/" name="About" />
