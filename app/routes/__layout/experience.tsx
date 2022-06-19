@@ -53,6 +53,7 @@ export default function Experience() {
                     <IconDescription
                         name="Purpur"
                         description="Purpur is a Minecraft server JAR designed for configurability and fun, exciting gameplay features."
+                        link="https://github.com/PurpurMC/Purpur"
                         isLast={true}
                     />
                 </div>
