@@ -5,7 +5,7 @@ import { GitHubLogoIcon, TwitterLogoIcon } from "@radix-ui/react-icons";
 
 export default function __layout() {
     return (
-        <div className="flex h-full justify-center items-center">
+        <div className="flex h-full justify-center items-center pb-20">
             <div className="flex flex-col h-5/6 w-[84rem] p-4">
                 <div className="flex justify-between items-center p-6 mb-4 bg-zinc-800 rounded-2xl">
                     <h1 className="text-3xl">

@@ -44,9 +44,18 @@ export default function Experience() {
                 </div>
             </Section>
 
-            <Section className="justify-center items-center flex-col">
-                <p className="text-4xl text-sky-400">Projects</p>
-                <i className="text-xl text-zinc-400">Coming soon</i>
+            <Section className="flex-col">
+                <div className="bg-zinc-900/[.5] p-2 mb-4 rounded-md">
+                    <p className="text-4xl text-sky-400 pl-2">Projects</p>
+                </div>
+
+                <div className="flex-col overflow-y-scroll">
+                    <IconDescription
+                        name="Purpur"
+                        description="Purpur is a Minecraft server JAR designed for configurability and fun, exciting gameplay features."
+                        isLast={true}
+                    />
+                </div>
             </Section>
         </HorizontalSection>
     );
