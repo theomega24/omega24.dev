@@ -14,7 +14,7 @@ export default function Experience() {
         <HorizontalSection>
             <Section className="flex-col">
                 <div className="bg-zinc-900/[.5] p-2 mb-4 rounded-md">
-                    <p className="text-4xl text-purple-600 pl-2">Skills</p>
+                    <p className="text-4xl text-green-500 pl-2">Skills</p>
                 </div>
 
                 <div className="flex-col overflow-y-scroll">
@@ -59,7 +59,7 @@ export default function Experience() {
 
             <Section className="flex-col">
                 <div className="bg-zinc-900/[.5] p-2 mb-4 rounded-md">
-                    <p className="text-4xl text-purple-600 pl-2">Projects</p>
+                    <p className="text-4xl text-green-500 pl-2">Projects</p>
                 </div>
 
                 <div className="flex-col overflow-y-scroll">

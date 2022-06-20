@@ -21,12 +21,12 @@ export default function Index() {
     return (
         <HorizontalSection>
             <Section className="justify-center items-center flex-col">
-                <p className="text-4xl">Hi, my name is <span className="text-purple-600">Ben Kerllenevich</span></p>
+                <p className="text-4xl">Hi, my name is <span className="text-green-500">Ben Kerllenevich</span></p>
                 <i className="text-xl text-zinc-400">I'm a 15 year old developer from <span className="font-bold">St Augustine, Florida</span></i>
 
                 {data.commissions && (
                     <div className="pt-20 text-2xl">
-                        My commissions are open, <NavLink to="/contact" className="text-green-400">hire me</NavLink>.
+                        My commissions are open, <NavLink to="/contact" className="text-sky-500">hire me</NavLink>.
                     </div>
                 )}
             </Section>
