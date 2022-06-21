@@ -5,8 +5,8 @@ import { GitHubLogoIcon, TwitterLogoIcon } from "@radix-ui/react-icons";
 
 export default function __layout() {
     return (
-        <div className="flex h-full w-full justify-center items-center pb-20">
-            <div className="flex flex-col h-5/6 w-[84rem] p-4">
+        <div className="flex h-screen w-screen justify-center items-center">
+            <div className="flex flex-col h-5/6 w-1/2 p-4">
                 <div className="flex justify-between items-center p-6 mb-4 bg-zinc-800 rounded-2xl">
                     <h1 className="text-3xl">
                         <span className="font-bold">omega24</span>
@@ -22,7 +22,7 @@ export default function __layout() {
                         <a href="https://twitter.com/bkerllenevich" target="_blank" aria-label="Twitter Account" rel="noreferrer"><TwitterLogoIcon className="w-6 h-6" /></a>
                     </nav>
                 </div>
-                <div className="h-full w-full">
+                <div className="h-full w-full bg-red-900">
                     <Outlet />
                 </div>
             </div>
