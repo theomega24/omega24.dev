@@ -22,7 +22,7 @@ export default function __layout() {
                         <a href="https://twitter.com/bkerllenevich" target="_blank" aria-label="Twitter Account" rel="noreferrer"><TwitterLogoIcon className="w-6 h-6" /></a>
                     </nav>
                 </div>
-                <div className="h-full w-full bg-red-900">
+                <div className="h-full w-full">
                     <Outlet />
                 </div>
             </div>
