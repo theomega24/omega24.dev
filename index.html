@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+              content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+        <title>omega24 | Software Engineer</title>
+    </head>
+
+    <body class="container">
+        <div class="title">
+            <h1>Ben Kerllenevich</h1>
+            <h3>Software Engineer</h3>
+
+            <div class="underline"></div>
+        </div>
+
+        <div class="links">
+            <a class="icon" href="https://github.com/theomega24" target="_blank" aria-label="Github Link">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="32" height="32" viewBox="0 0 32 32" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                    <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5"></path>
+                </svg>
+            </a>
+
+            <a class="icon" href="mailto:ben@omega24.dev" target="_blank" aria-label="Email Link">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="32" height="32" viewBox="0 0 32 32" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                    <rect x="3" y="5" width="18" height="14" rx="2"></rect>
+                    <polyline points="3 7 12 13 21 7"></polyline>
+                </svg>
+            </a>
+        </div>
+    </body>
+
+    <style>
+        :root {
+            --gray-0: #F8F9FA;
+
+            --dark-0: #C1C2C5;
+            --dark-5: #2C2E33;
+            --dark-8: #141517;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html, body {
+            font-family: system-ui, sans-serif;
+
+            height: 100%;
+            width: 100%;
+
+            color: var(--dark-0);
+            background: var(--dark-8);
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+
+            justify-content: center;
+            align-items: center;
+        }
+
+        .title {
+            text-align: center;
+        }
+
+        .title h1 {
+            color: var(--gray-0);
+        }
+
+        .underline {
+            background: var(--dark-5);
+
+            margin-top: 20px;
+            margin-bottom: 20px;
+
+            border-top: 3px solid var(--dark-5);
+            border-bottom: 3px solid var(--dark-5);
+            border-radius: 10px;
+        }
+
+        .links {
+            display: flex;
+            gap: 10px;
+        }
+
+        .icon svg {
+            height: 48px;
+            width: 48px;
+            color: var(--gray-0);
+        }
+    </style>
+</html>
