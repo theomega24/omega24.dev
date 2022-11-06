@@ -7,6 +7,70 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
         <title>omega24 | Software Engineer</title>
+
+        <style>
+            :root {
+                --gray-0: #F8F9FA;
+
+                --dark-0: #C1C2C5;
+                --dark-5: #2C2E33;
+                --dark-8: #141517;
+            }
+
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+
+            html, body {
+                font-family: system-ui, sans-serif;
+
+                height: 100%;
+                width: 100%;
+
+                color: var(--dark-0);
+                background: var(--dark-8);
+            }
+
+            .container {
+                display: flex;
+                flex-direction: column;
+
+                justify-content: center;
+                align-items: center;
+            }
+
+            .title {
+                text-align: center;
+            }
+
+            .title h1 {
+                color: var(--gray-0);
+            }
+
+            .underline {
+                background: var(--dark-5);
+
+                margin-top: 20px;
+                margin-bottom: 20px;
+
+                border-top: 3px solid var(--dark-5);
+                border-bottom: 3px solid var(--dark-5);
+                border-radius: 10px;
+            }
+
+            .links {
+                display: flex;
+                gap: 10px;
+            }
+
+            .icon svg {
+                height: 48px;
+                width: 48px;
+                color: var(--gray-0);
+            }
+        </style>
     </head>
 
     <body class="container">
@@ -34,68 +98,4 @@
             </a>
         </div>
     </body>
-
-    <style>
-        :root {
-            --gray-0: #F8F9FA;
-
-            --dark-0: #C1C2C5;
-            --dark-5: #2C2E33;
-            --dark-8: #141517;
-        }
-
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        html, body {
-            font-family: system-ui, sans-serif;
-
-            height: 100%;
-            width: 100%;
-
-            color: var(--dark-0);
-            background: var(--dark-8);
-        }
-
-        .container {
-            display: flex;
-            flex-direction: column;
-
-            justify-content: center;
-            align-items: center;
-        }
-
-        .title {
-            text-align: center;
-        }
-
-        .title h1 {
-            color: var(--gray-0);
-        }
-
-        .underline {
-            background: var(--dark-5);
-
-            margin-top: 20px;
-            margin-bottom: 20px;
-
-            border-top: 3px solid var(--dark-5);
-            border-bottom: 3px solid var(--dark-5);
-            border-radius: 10px;
-        }
-
-        .links {
-            display: flex;
-            gap: 10px;
-        }
-
-        .icon svg {
-            height: 48px;
-            width: 48px;
-            color: var(--gray-0);
-        }
-    </style>
 </html>
